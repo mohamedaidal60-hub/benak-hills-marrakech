@@ -16,7 +16,7 @@ const Hero = () => {
         <img
           src="https://images.unsplash.com/photo-1613490493576-7fde63acd811?auto=format&fit=crop&w=1920&q=80"
           alt="Villa de luxe Marrakech Benak Hills"
-          className="w-full h-full object-cover"
+          className="w-full h-full object-cover object-center md:object-center scale-[1.2] md:scale-100"
           loading="eager"
         />
         <div className="absolute inset-0 hero-overlay" />
